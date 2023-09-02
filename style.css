@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #e8e8e8;
+}
+
+main {
+  background: mediumpurple;
+  width: 20rem;
+  margin: 30vh auto 0;
+  padding: .8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec1 h1 {
+  text-align: center;
+}
+
+.tam {
+  flex-direction: row;
+}
+
+.length {
+  background: #e8e8e8;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+main button {
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: .8rem;
+  position: relative;
+}
+
+.hide {
+}
+
+.password {
+  background: #e8e8e8;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sec2:hover .copy {
+  opacity: 1;
+}
+
+.copy {
+  background: rgba(0,0,0,0.8);
+  padding: 5px 8px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: max-content;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  opacity: 0;
+}
