@@ -12,7 +12,7 @@ body {
 main {
   background: mediumpurple;
   width: 20rem;
-  margin: 30vh auto 0;
+  margin: 5vh auto 0;
   padding: .8rem;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ main {
   flex-direction: row;
 }
 
-.length {
+.length-bar {
   background: #e8e8e8;
   margin: 5px 0;
   cursor: pointer;
@@ -54,17 +54,17 @@ main button {
 }
 
 .hide {
+  display: none;
 }
 
-.password {
+.myPassword {
   background: #e8e8e8;
   padding: 5px;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.sec2:hover .copy {
-  opacity: 1;
+  outline: none;
+  border: 0;
+  font-size: 1rem;
 }
 
 .copy {
@@ -76,5 +76,12 @@ main button {
   position: absolute;
   right: 0;
   color: #fff;
-  opacity: 0;
+  opacity: 1;
+}
+
+.alert1, .alert2 {
+  background: indianred;
+  border-radius: 4px;
+  padding: 3px;
+  margin-top: .8rem;
 }
