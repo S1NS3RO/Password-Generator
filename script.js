@@ -5,13 +5,9 @@ const alert1 = document.querySelector('.alert1');
 const alert2 = document.querySelector('.alert2');
 const btnCopy = document.querySelector('.copy');
 const btnCopyOriginal = `Copy <i class="bi bi-clipboard"></i>`;
-
 const btnCopied = `Copied <i class="bi bi-clipboard-check"></i>`;
-
 const btnError = `Error <i class="bi bi-clipboard-x"></i>`;
-
 let charSet = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&()*+,-./:;<=>?@][^_{|}~`;
-
 let newPassword = '';
 
 passwordSizeSpan.innerHTML = lengthBar.value;
