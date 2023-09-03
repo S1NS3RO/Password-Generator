@@ -6,15 +6,15 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   background-color: mediumpurple;
 }
 
 main {
-background: linear-gradient(to bottom right, orange, gold);
+  background: linear-gradient(to bottom right, orange, gold);
   width: 20rem;
   margin: 5vh auto 0;
-  padding: .8rem;
+  padding: 0.8rem;
   display: flex;
   flex-direction: column;
   border-radius: 4px;
@@ -28,7 +28,7 @@ background: linear-gradient(to bottom right, orange, gold);
 
 .sec1 h1 {
   text-align: center;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -44,7 +44,7 @@ background: linear-gradient(to bottom right, orange, gold);
 
 main button {
   padding: 5px 8px;
-  border: 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   cursor: pointer;
   font-size: 1.05rem;
@@ -53,7 +53,7 @@ main button {
 .sec2 {
   display: flex;
   flex-direction: column;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   position: relative;
 }
 
@@ -77,9 +77,11 @@ main button {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   width: max-content;
+  height: 100%;
   position: absolute;
   right: 0;
   color: #fff;
+  border: none;
   opacity: 1;
 }
 
@@ -87,10 +89,15 @@ main button {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.alerts {
+  display: flex;
+  flex-direction: column;
+}
+
 .alert1,
 .alert2 {
-  background: indianred;
+  background: rgb(255, 69, 69);
   border-radius: 4px;
-  padding: 3px;
-  margin-top: .8rem;
+  padding: 0.3rem 1rem;
+  margin-top: 0.8rem;
 }
