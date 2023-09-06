@@ -25,7 +25,6 @@ function quantosCaracteres() {
   lengthBar.oninput = function() {
     passwordSize.innerHTML = this.value
     myPassword.value = ''
-    gerarSenha()
   }
 }
 
@@ -75,7 +74,7 @@ function copyPassword() {
       btnCopiarSenha.disabled = false
       biIcon.className = 'bi'
       biIcon.classList.add('bi-clipboard')
-    }, 2500)
+    }, 2000)
     return
   } catch (err) {
     btnCopiarSenha.disabled = true
