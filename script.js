@@ -11,7 +11,7 @@ const alert1 = document.querySelector('.alert1')
 
 const alert2 = document.querySelector('.alert2')
 
-const btnCopiarSenha = document.querySelector('.copy')
+const btnCopiarSenha = document.querySelector('#btn-copiar')
 
 const biIcon = document.querySelector('#icone')
 

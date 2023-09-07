@@ -27,29 +27,28 @@ main {
 
 #github a {
   color: gold;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .sec1 {
   display: flex;
   flex-direction: column;
+  gap: .5rem;
 }
 
 .sec1 h1 {
   text-align: center;
-  margin-bottom: 0.8rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.tam {
-  flex-direction: row;
-  font-weight: 500;
-}
-
-.length-bar {
-  margin: 5px 0;
+#length-bar {
   cursor: pointer;
   outline: none;
+}
+
+#size-char {
+  flex-direction: row;
+  font-weight: 500;
 }
 
 .sec2 {
@@ -70,7 +69,7 @@ main {
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3)
 }
 
-.copy {
+#btn-copiar {
   background: rgba(0, 0, 0, 0.8);
   padding: 0 .8rem;
   border-radius: 0 4px 4px 0;
