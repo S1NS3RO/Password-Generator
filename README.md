@@ -1,2 +1,3 @@
-.projeto de aprendizagem {<br>
-&nbsp;&nbsp;Visualizar:&nbsp;<a href="https://s1ns3ro.github.io/Password-Generator/">Password-generator</a>;<br>}
+function Password-generator()&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;document.write(<a href="https://s1ns3ro.github.io/Password-Generator/">Visualizar</a>)
+<br>}
